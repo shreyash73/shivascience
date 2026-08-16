@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chakra Meditation — Shiva Science</title>
+  <meta name="description" content="The gateway to Peace, Power & Health. Align your soul and body with the universe through the science of the 7 primary energy centres.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1268133148686901');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1268133148686901&ev=PageView&noscript=1" alt=""></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --gold: #b8955a;
+      --gold-light: #d4af78;
+      --gold-pale: #f5edd9;
+      --deep: #0f0c08;
+      --dark: #1a1510;
+      --mid: #2c241b;
+      --warm: #3d3025;
+      --text: #e8ddd0;
+      --muted: #9e8e7a;
+      --white: #fdf8f2;
+      --radius: 2px;
+
+      /* The seven centres */
+      --c-root: #c0392b;
+      --c-sacral: #e07b2c;
+      --c-solar: #e0b83c;
+      --c-heart: #5aa05e;
+      --c-throat: #3d92cc;
+      --c-third-eye: #6a5bab;
+      --c-crown: #9a76c4;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--deep);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── TOP INFO BAR ─── */
+    .topbar {
+      position: relative;
+      z-index: 101;
+      background: var(--deep);
+      border-bottom: 1px solid rgba(184, 149, 90, 0.12);
+      text-align: center;
+      padding: 9px 24px;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    .topbar span {
+      white-space: nowrap;
+    }
+
+    .topbar .sep {
+      color: rgba(184, 149, 90, 0.4);
+      margin: 0 12px;
+    }
+
+    .topbar a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .topbar a:hover {
+      color: var(--gold-light);
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      background: rgba(15, 12, 8, 0.92);
+      border-bottom: 1px solid rgba(184, 149, 90, 0.1);
+      backdrop-filter: blur(8px);
+    }
+
+    nav .logo img {
+      height: 44px;
+      display: block;
+      filter: brightness(1.1);
+    }
+
+    nav .cta-nav {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--deep);
+      background: var(--gold);
+      padding: 10px 24px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+
+    nav .cta-nav:hover {
+      background: var(--gold-light);
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      position: relative;
+      min-height: calc(100vh - 100px);
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+      align-items: center;
+      padding: 90px 80px;
+      gap: 60px;
+      overflow: hidden;
+      background: var(--deep);
+    }
+
+    /* Energy-field backdrop — no photograph in the source hero */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      background:
+        radial-gradient(ellipse 60% 70% at 78% 50%, rgba(154, 118, 196, 0.16), transparent 70%),
+        radial-gradient(ellipse 50% 60% at 72% 78%, rgba(224, 123, 44, 0.14), transparent 70%),
+        radial-gradient(ellipse 70% 50% at 20% 20%, rgba(184, 149, 90, 0.1), transparent 70%),
+        linear-gradient(160deg, var(--dark), var(--deep) 60%);
+    }
+
+    .hero-text,
+    .hero-visual {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-text {
+      max-width: 560px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(184, 149, 90, 0.35);
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(40px, 5vw, 64px);
+      font-weight: 300;
+      line-height: 1.1;
+      color: var(--white);
+      margin-bottom: 14px;
+    }
+
+    .hero h1 em {
+      display: block;
+      font-style: italic;
+      color: var(--gold-light);
+    }
+
+    .hero-sub {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 500;
+      font-style: italic;
+      color: #EDE3D0;
+      margin-bottom: 32px;
+      line-height: 1.55;
+      max-width: 480px;
+    }
+
+    .session-meta {
+      display: flex;
+      gap: 0;
+      margin-bottom: 40px;
+      background: rgba(10, 8, 6, 0.55);
+      border: 1px solid rgba(212, 175, 120, 0.35);
+      backdrop-filter: blur(2px);
+      width: fit-content;
+    }
+
+    .session-meta .meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 16px 26px;
+    }
+
+    .meta-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+    }
+
+    .meta-value {
+      font-family: 'Cinzel', serif;
+      font-size: 24px;
+      color: var(--white);
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+    }
+
+    .divider-line {
+      width: 1px;
+      background: rgba(184, 149, 90, 0.35);
+    }
+
+    .btn-primary {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--deep);
+      background: var(--gold);
+      padding: 16px 40px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-1px);
+    }
+
+    .trust-line {
+      margin-top: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #E8DDC8;
+      letter-spacing: 0.05em;
+    }
+
+    /* ─── HERO CHAKRA COLUMN ─── */
+    .hero-visual {
+      display: flex;
+      justify-content: center;
+    }
+
+    .chakra-column {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+
+    .chakra-column .glyph {
+      transform-origin: center;
+      animation: breathe 7s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0%, 100% { opacity: 0.75; }
+      50%      { opacity: 1; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .chakra-column .glyph {
+        animation: none;
+        opacity: 0.95;
+      }
+    }
+
+    /* ─── SECTION BASE ─── */
+    section {
+      padding: 100px 80px;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 64px;
+    }
+
+    .section-header .eyebrow {
+      display: block;
+    }
+
+    .section-header h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(30px, 3.8vw, 50px);
+      font-weight: 300;
+      color: var(--white);
+      line-height: 1.15;
+    }
+
+    .section-header h2 em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+
+    .section-header p {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    /* ─── WHAT IS CHAKRA MEDITATION ─── */
+    .about {
+      background: var(--dark);
+    }
+
+    .about-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    .about-copy h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(30px, 3.8vw, 50px);
+      font-weight: 300;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 24px;
+    }
+
+    .about-copy h2 em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+
+    .about-copy p {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.85;
+      margin-bottom: 18px;
+      font-weight: 300;
+    }
+
+    .about-copy p strong {
+      color: var(--text);
+      font-weight: 400;
+    }
+
+    .benefit-list {
+      list-style: none;
+      border-top: 1px solid rgba(184, 149, 90, 0.12);
+    }
+
+    .benefit-list li {
+      border-bottom: 1px solid rgba(184, 149, 90, 0.12);
+      padding: 17px 0 17px 30px;
+      position: relative;
+      font-size: 14.5px;
+      color: var(--text);
+      transition: color 0.2s, padding-left 0.2s;
+    }
+
+    .benefit-list li::before {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 50%;
+      width: 0;
+      height: 0;
+      margin-top: -4.5px;
+      border-left: 6px solid var(--gold);
+      border-top: 4.5px solid transparent;
+      border-bottom: 4.5px solid transparent;
+    }
+
+    .benefit-list li:hover {
+      color: var(--white);
+      padding-left: 36px;
+    }
+
+    /* ─── THE 7 CHAKRAS ─── */
+    .chakras {
+      background: var(--deep);
+    }
+
+    .chakra-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .chakra-card {
+      flex: 1 1 140px;
+      max-width: 190px;
+      background: var(--dark);
+      border: 1px solid rgba(184, 149, 90, 0.15);
+      padding: 30px 18px 26px;
+      text-align: center;
+      transition: border-color 0.25s, transform 0.25s, background 0.25s;
+    }
+
+    .chakra-card:hover {
+      background: var(--mid);
+      border-color: rgba(212, 175, 120, 0.45);
+      transform: translateY(-4px);
+    }
+
+    .chakra-card svg {
+      width: 46px;
+      height: 46px;
+      margin-bottom: 18px;
+    }
+
+    .chakra-card h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: var(--white);
+      margin-bottom: 6px;
+    }
+
+    .chakra-card span {
+      display: block;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* ─── LEVEL CARDS (5 Levels + Specialization) ─── */
+    .levels {
+      background: var(--dark);
+    }
+
+    .specialization {
+      background: var(--deep);
+    }
+
+    .level-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: rgba(184, 149, 90, 0.12);
+      border: 1px solid rgba(184, 149, 90, 0.12);
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    /* Both sets run 5 cards — the odd one spans the final row, as in the source */
+    .level-grid .level-card:last-child {
+      grid-column: 1 / -1;
+    }
+
+    .level-card {
+      background: var(--dark);
+      padding: 38px 40px;
+      transition: background 0.2s;
+    }
+
+    .specialization .level-card {
+      background: var(--deep);
+    }
+
+    .level-card:hover {
+      background: var(--mid);
+    }
+
+    .specialization .level-card:hover {
+      background: var(--dark);
+    }
+
+    .level-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      border: 1px solid rgba(184, 149, 90, 0.4);
+      padding: 5px 13px;
+      margin-bottom: 18px;
+    }
+
+    .level-card h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 25px;
+      font-weight: 500;
+      color: var(--white);
+      margin-bottom: 12px;
+      line-height: 1.25;
+    }
+
+    .level-card p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    /* ─── CTA ─── */
+    .cta-section {
+      position: relative;
+      overflow: hidden;
+      background: var(--mid);
+      text-align: center;
+      padding: 100px 80px;
+    }
+
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 90% at 88% 55%, rgba(224, 123, 44, 0.3), transparent 70%),
+        radial-gradient(ellipse 45% 80% at 12% 45%, rgba(154, 118, 196, 0.16), transparent 70%);
+    }
+
+    .cta-section > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .cta-section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(32px, 4vw, 52px);
+      font-weight: 300;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
+    .cta-section .sub {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      color: var(--gold-pale);
+      font-size: 19px;
+      margin-bottom: 40px;
+    }
+
+    /* ─── FOOTER ─── */
+    /* Landing-page footer: a closing mark and the ways to reach the ashram.
+       No navigation, no social links — nothing that sends a visitor away. */
+    footer {
+      background: var(--deep);
+      border-top: 1px solid rgba(184, 149, 90, 0.1);
+      padding: 64px 40px 48px;
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    .footer-inner img {
+      height: 54px;
+      opacity: 0.85;
+      margin: 0 auto 22px;
+      display: block;
+    }
+
+    .footer-inner > p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .contact-lines {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px 32px;
+      margin: 30px 0;
+      padding: 22px 0;
+      border-top: 1px solid rgba(184, 149, 90, 0.12);
+      border-bottom: 1px solid rgba(184, 149, 90, 0.12);
+    }
+
+    .contact-lines li {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 12.5px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .contact-lines svg {
+      width: 13px;
+      height: 13px;
+      flex-shrink: 0;
+      stroke: var(--gold);
+      fill: none;
+      stroke-width: 1.6;
+    }
+
+    .contact-lines a {
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .contact-lines a:hover {
+      color: var(--gold-light);
+    }
+
+    .footer-bottom {
+      font-size: 11.5px;
+      color: rgba(158, 142, 122, 0.75);
+      line-height: 1.7;
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 1100px) {
+      .about-inner {
+        grid-template-columns: 1fr;
+        gap: 48px;
+      }
+
+      .hero {
+        padding: 80px 48px;
+        gap: 40px;
+      }
+
+      .chakra-column {
+        max-width: 230px;
+      }
+    }
+
+    @media (max-width: 900px) {
+      nav {
+        padding: 14px 20px;
+      }
+
+      nav .logo img {
+        height: 36px;
+      }
+
+      nav .cta-nav {
+        font-size: 11px;
+        padding: 9px 16px;
+      }
+
+      .topbar {
+        font-size: 10.5px;
+      }
+
+      .topbar .sep {
+        margin: 0 7px;
+      }
+
+      section {
+        padding: 72px 24px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 64px 24px;
+        min-height: auto;
+        gap: 48px;
+      }
+
+      /* Column sits below the copy on phones — at full height it would push
+         the headline off the first screen. */
+      .chakra-column {
+        max-width: 132px;
+      }
+
+      .level-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-section {
+        padding: 72px 24px;
+      }
+
+      footer {
+        padding: 52px 24px 40px;
+      }
+
+      .contact-lines {
+        gap: 14px;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .session-meta {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .session-meta .meta-item {
+        padding: 14px 20px;
+      }
+
+      .divider-line {
+        display: none;
+      }
+
+      .level-card {
+        padding: 32px 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP INFO BAR -->
+  <div class="topbar">
+    <span>Dhamse Village, Sattari Taluka, Goa — 403506</span>
+    <span class="sep">|</span>
+    <span><a href="tel:+919359264077">+91 93592 64077</a></span>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <!-- Logo is not a link — there is nowhere to go but forward. -->
+    <span class="logo">
+      <img src="https://storage.files-vault.com/landing_pages/73158/6f8bfca8e9d8dd9318e968da3de5cb45-6f8bfca8e9d8dd9318e968da3de5cb45-77dfdfb681661a608e5910f2161cea78-336cae6687fbb9c58acd3c1c9e5a2b62-Shiva-Science-logo-500.webp" alt="Shiva Science">
+    </span>
+    <a href="#register" class="cta-nav">Register Now →</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <span class="eyebrow">Awaken Your Inner Power</span>
+      <h1>Chakra Meditation<em>Heal Yourself</em></h1>
+      <p class="hero-sub">The gateway to Peace, Power &amp; Health. Align your soul and body with the universe through the science of the 7 primary energy centres.</p>
+      <div class="session-meta">
+        <div class="meta-item">
+          <span class="meta-label">Chakras</span>
+          <span class="meta-value">7 Centres</span>
+        </div>
+        <div class="divider-line"></div>
+        <div class="meta-item">
+          <span class="meta-label">Course</span>
+          <span class="meta-value">5 Levels</span>
+        </div>
+        <div class="divider-line"></div>
+        <div class="meta-item">
+          <span class="meta-label">Where</span>
+          <span class="meta-value">Goa Ashram</span>
+        </div>
+      </div>
+      <a href="#register" class="btn-primary">Register for Level 1</a>
+      <p class="trust-line">Mantra-Based Technique · Guided by P. P. Bhaiyaji · Beginners Welcome</p>
+    </div>
+    <div class="hero-visual">
+      <!-- The seven centres, crown to root -->
+      <svg class="chakra-column" viewBox="0 0 200 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The seven chakras, crown to root">
+        <line x1="100" y1="24" x2="100" y2="446" stroke="rgba(184,149,90,0.28)" stroke-width="1"></line>
+        <g fill="none" stroke-width="1.4">
+          <g class="glyph" style="animation-delay:0s">
+            <circle cx="100" cy="34" r="19" stroke="var(--c-crown)"></circle>
+            <circle cx="100" cy="34" r="11" stroke="var(--c-crown)" opacity="0.6"></circle>
+            <circle cx="100" cy="34" r="3.5" fill="var(--c-crown)" stroke="none"></circle>
+          </g>
+          <g class="glyph" style="animation-delay:1s">
+            <circle cx="100" cy="103" r="19" stroke="var(--c-third-eye)"></circle>
+            <path d="M81 103h38" stroke="var(--c-third-eye)" opacity="0.6"></path>
+            <circle cx="100" cy="103" r="3.5" fill="var(--c-third-eye)" stroke="none"></circle>
+          </g>
+          <g class="glyph" style="animation-delay:2s">
+            <circle cx="100" cy="172" r="19" stroke="var(--c-throat)"></circle>
+            <circle cx="100" cy="172" r="11" stroke="var(--c-throat)" opacity="0.6"></circle>
+            <circle cx="100" cy="172" r="3.5" fill="var(--c-throat)" stroke="none"></circle>
+          </g>
+          <g class="glyph" style="animation-delay:3s">
+            <circle cx="100" cy="241" r="19" stroke="var(--c-heart)"></circle>
+            <path d="M100 228l11 13-11 13-11-13z" stroke="var(--c-heart)" opacity="0.6"></path>
+            <circle cx="100" cy="241" r="3.5" fill="var(--c-heart)" stroke="none"></circle>
+          </g>
+          <g class="glyph" style="animation-delay:4s">
+            <circle cx="100" cy="310" r="19" stroke="var(--c-solar)"></circle>
+            <path d="M100 297l11 19H89z" stroke="var(--c-solar)" opacity="0.6"></path>
+            <circle cx="100" cy="310" r="3.5" fill="var(--c-solar)" stroke="none"></circle>
+          </g>
+          <g class="glyph" style="animation-delay:5s">
+            <circle cx="100" cy="379" r="19" stroke="var(--c-sacral)"></circle>
+            <circle cx="100" cy="379" r="11" stroke="var(--c-sacral)" opacity="0.6"></circle>
+            <circle cx="100" cy="379" r="3.5" fill="var(--c-sacral)" stroke="none"></circle>
+          </g>
+          <g class="glyph" style="animation-delay:6s">
+            <circle cx="100" cy="448" r="19" stroke="var(--c-root)"></circle>
+            <path d="M89 440h22v16H89z" stroke="var(--c-root)" opacity="0.6"></path>
+            <circle cx="100" cy="448" r="3.5" fill="var(--c-root)" stroke="none"></circle>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- WHAT IS CHAKRA MEDITATION -->
+  <section class="about">
+    <div class="about-inner">
+      <div class="about-copy">
+        <span class="eyebrow">What is Chakra Meditation?</span>
+        <h2>Activate Your <em>Energy Centres</em></h2>
+        <p>The human body is made up of <strong>7 primary chakras</strong> — the core energy centres that govern every aspect of our physical, emotional, mental and spiritual life. When these centres are blocked or unbalanced, disease, confusion and suffering follow.</p>
+        <p>PP Bhaiyaji's Chakra Meditation utilises <strong>mantra-based techniques</strong> — specifically calibrated for each chakra — unlike basic mindfulness. Participants report feeling a profound connection with themselves and the universe as each centre is awakened.</p>
+      </div>
+      <ul class="benefit-list">
+        <li>Emotional awareness, stability and regulation</li>
+        <li>Improved mental health and reduced anxiety</li>
+        <li>Enhanced mental focus and clarity</li>
+        <li>Stronger willpower and inner confidence</li>
+        <li>Boosted immune system and physical vitality</li>
+        <li>Spiritual growth and higher consciousness</li>
+        <li>Deep states of peace and inner silence</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- THE 7 CHAKRAS -->
+  <section class="chakras" id="chakras">
+    <div class="section-header">
+      <span class="eyebrow">The 7 Chakras</span>
+      <h2>Energy Centres Of The <em>Body</em></h2>
+    </div>
+    <div class="chakra-grid">
+      <div class="chakra-card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="var(--c-root)" stroke-width="1.3">
+          <circle cx="24" cy="24" r="17"></circle>
+          <path d="M15 15h18v18H15z"></path>
+          <path d="M24 17l7 7-7 7-7-7z"></path>
+        </svg>
+        <h3>Muladhara</h3>
+        <span>Root · Stability</span>
+      </div>
+      <div class="chakra-card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="var(--c-sacral)" stroke-width="1.3">
+          <circle cx="24" cy="24" r="17"></circle>
+          <circle cx="24" cy="24" r="10"></circle>
+          <circle cx="24" cy="24" r="3.5"></circle>
+        </svg>
+        <h3>Svadhisthana</h3>
+        <span>Sacral · Creativity</span>
+      </div>
+      <div class="chakra-card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="var(--c-solar)" stroke-width="1.3">
+          <circle cx="24" cy="24" r="17"></circle>
+          <path d="M24 13l10 17H14z"></path>
+          <circle cx="24" cy="25" r="3.5"></circle>
+        </svg>
+        <h3>Manipura</h3>
+        <span>Solar · Power</span>
+      </div>
+      <div class="chakra-card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="var(--c-heart)" stroke-width="1.3">
+          <circle cx="24" cy="24" r="17"></circle>
+          <path d="M24 14l10 10-10 10-10-10z"></path>
+          <path d="M24 19l5 5-5 5-5-5z"></path>
+        </svg>
+        <h3>Anahata</h3>
+        <span>Heart · Love</span>
+      </div>
+      <div class="chakra-card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="var(--c-throat)" stroke-width="1.3">
+          <circle cx="24" cy="24" r="17"></circle>
+          <circle cx="24" cy="24" r="9"></circle>
+          <path d="M24 8v7M24 33v7M8 24h7M33 24h7"></path>
+        </svg>
+        <h3>Vishuddha</h3>
+        <span>Throat · Truth</span>
+      </div>
+      <div class="chakra-card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="var(--c-third-eye)" stroke-width="1.3">
+          <circle cx="24" cy="24" r="17"></circle>
+          <path d="M9 24c5-7 10-10 15-10s10 3 15 10c-5 7-10 10-15 10S14 31 9 24z"></path>
+          <circle cx="24" cy="24" r="4"></circle>
+        </svg>
+        <h3>Agya</h3>
+        <span>Third Eye · Intuition</span>
+      </div>
+      <div class="chakra-card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="var(--c-crown)" stroke-width="1.3">
+          <circle cx="24" cy="24" r="17"></circle>
+          <circle cx="24" cy="24" r="11"></circle>
+          <circle cx="24" cy="24" r="5"></circle>
+          <path d="M24 3v6"></path>
+        </svg>
+        <h3>Sahasrara</h3>
+        <span>Crown · Consciousness</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 LEVELS OF MASTERY -->
+  <section class="levels" id="levels">
+    <div class="section-header">
+      <span class="eyebrow">Course Structure</span>
+      <h2>5 Levels Of <em>Mastery</em></h2>
+    </div>
+    <div class="level-grid">
+      <div class="level-card">
+        <span class="level-badge">Level 01</span>
+        <h3>Foundation</h3>
+        <p>Introduction to the chakra system, basic energy awareness, and beginner techniques using breath and mantras.</p>
+      </div>
+      <div class="level-card">
+        <span class="level-badge">Level 02</span>
+        <h3>Activation</h3>
+        <p>Deeper chakra activation — working with the lower three chakras: Muladhara, Svadhisthana, and Manipura.</p>
+      </div>
+      <div class="level-card">
+        <span class="level-badge">Level 03</span>
+        <h3>Integration</h3>
+        <p>Heart and upper chakra integration. Connecting prana flow through Anahata and Vishuddha energy centres.</p>
+      </div>
+      <div class="level-card">
+        <span class="level-badge">Level 04</span>
+        <h3>Transcendence</h3>
+        <p>Third Eye activation (Ajna chakra), deep intuition development, and advanced mantra work with Bhaiyyaji.</p>
+      </div>
+      <div class="level-card">
+        <span class="level-badge">Level 05</span>
+        <h3>Sahasrara — Crown Awakening</h3>
+        <p>The pinnacle. Consciousness rises to the crown chakra. Deep samadhi-adjacent states, connection with universal consciousness. The practice continues until the third eye fully awakens and consciousness rises to Sahasrara — there is no fixed timeframe; one continues until the goal is achieved.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALIZATION COURSE -->
+  <!--
+    NOTE: on the source page all five of these cards carry the same placeholder
+    title and body (a copy of the Level 05 text). Real titles and descriptions
+    for Level 05+, Level 05++, Rakt A, Rakt B and Rakt C are still needed —
+    swap them in below and this section is done.
+  -->
+  <section class="specialization">
+    <div class="section-header">
+      <span class="eyebrow">Higher Course Structure</span>
+      <h2>Specialization <em>Course</em></h2>
+    </div>
+    <div class="level-grid">
+      <div class="level-card">
+        <span class="level-badge">Level 05+</span>
+        <h3>Sahasrara — Crown Awakening</h3>
+        <p>The pinnacle. Consciousness rises to the crown chakra. Deep samadhi-adjacent states, connection with universal consciousness. The practice continues until the third eye fully awakens and consciousness rises to Sahasrara — there is no fixed timeframe; one continues until the goal is achieved.</p>
+      </div>
+      <div class="level-card">
+        <span class="level-badge">Level 05++</span>
+        <h3>Sahasrara — Crown Awakening</h3>
+        <p>The pinnacle. Consciousness rises to the crown chakra. Deep samadhi-adjacent states, connection with universal consciousness. The practice continues until the third eye fully awakens and consciousness rises to Sahasrara — there is no fixed timeframe; one continues until the goal is achieved.</p>
+      </div>
+      <div class="level-card">
+        <span class="level-badge">Rakt A</span>
+        <h3>Sahasrara — Crown Awakening</h3>
+        <p>The pinnacle. Consciousness rises to the crown chakra. Deep samadhi-adjacent states, connection with universal consciousness. The practice continues until the third eye fully awakens and consciousness rises to Sahasrara — there is no fixed timeframe; one continues until the goal is achieved.</p>
+      </div>
+      <div class="level-card">
+        <span class="level-badge">Rakt B</span>
+        <h3>Sahasrara — Crown Awakening</h3>
+        <p>The pinnacle. Consciousness rises to the crown chakra. Deep samadhi-adjacent states, connection with universal consciousness. The practice continues until the third eye fully awakens and consciousness rises to Sahasrara — there is no fixed timeframe; one continues until the goal is achieved.</p>
+      </div>
+      <div class="level-card">
+        <span class="level-badge">Rakt C</span>
+        <h3>Sahasrara — Crown Awakening</h3>
+        <p>The pinnacle. Consciousness rises to the crown chakra. Deep samadhi-adjacent states, connection with universal consciousness. The practice continues until the third eye fully awakens and consciousness rises to Sahasrara — there is no fixed timeframe; one continues until the goal is achieved.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    FAQ — the four questions below are the real ones from the source page, but the
+    accordions were collapsed in the screenshot so the answers are not recoverable.
+    Fill in each <p class="faq-a"> and delete these comment markers to switch it on.
+    The .faq styles from the Divine Session system are NOT in this file yet; paste
+    them in with the section, or send me the answers and I'll wire it up.
+
+    <section class="faq">
+      <div class="section-header">
+        <span class="eyebrow">FAQ</span>
+        <h2>Common <em>Questions</em></h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item"><summary class="faq-q">How long does it take to complete the course?</summary><p class="faq-a"></p></details>
+        <details class="faq-item"><summary class="faq-q">How often should I practice?</summary><p class="faq-a"></p></details>
+        <details class="faq-item"><summary class="faq-q">What makes this course unique?</summary><p class="faq-a"></p></details>
+        <details class="faq-item"><summary class="faq-q">Is it suitable for beginners with no prior experience?</summary><p class="faq-a"></p></details>
+      </div>
+    </section>
+  -->
+
+  <!-- CTA -->
+  <section class="cta-section" id="register">
+    <h2>Begin Your Chakra Journey</h2>
+    <p class="sub">Register for the next Level 1 session at the Goa Ashram.</p>
+    <a href="#" class="btn-primary">Register Now →</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <img src="https://storage.files-vault.com/landing_pages/73158/6f8bfca8e9d8dd9318e968da3de5cb45-6f8bfca8e9d8dd9318e968da3de5cb45-77dfdfb681661a608e5910f2161cea78-336cae6687fbb9c58acd3c1c9e5a2b62-Shiva-Science-logo-500.webp" alt="Shiva Science">
+      <p>Shiva Science Charitable Trust. Scientific spirituality through ancient wisdom, chakra healing &amp; Sadhana — Goa, India.</p>
+
+      <ul class="contact-lines">
+        <li>
+          <svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          <a href="tel:+919359264077">+91 93592 64077</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="M4 6l8 6 8-6"/></svg>
+          <a href="mailto:shivasciencetrust@gmail.com">shivasciencetrust@gmail.com</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Dhamse Village, Sattari, Goa — 403506</span>
+        </li>
+      </ul>
+
+      <p class="footer-bottom">© 2026 Shiva Science Charitable Trust. All rights reserved.<br>Legal name: Shiva Science Charitable Trust.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stress, Anxiety &amp; Depression Healing — Shiva Science</title>
+  <meta name="description" content="Activate your Stress, Anxiety & Depression Release System using a 5-step process in the next 5 days. An offline healing session guided by Param Pujya Bhaiyyaji.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --gold: #b8955a;
+      --gold-light: #d4af78;
+      --gold-pale: #f5edd9;
+      --deep: #0f0c08;
+      --dark: #1a1510;
+      --mid: #2c241b;
+      --warm: #3d3025;
+      --text: #e8ddd0;
+      --muted: #9e8e7a;
+      --white: #fdf8f2;
+      --radius: 2px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--deep);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(to bottom, rgba(15, 12, 8, 0.95), transparent);
+      backdrop-filter: blur(6px);
+    }
+
+    nav .logo img {
+      height: 44px;
+      filter: brightness(1.1);
+    }
+
+    nav .cta-nav {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--deep);
+      background: var(--gold);
+      padding: 10px 24px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    nav .cta-nav:hover {
+      background: var(--gold-light);
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 120px 80px 80px;
+      gap: 60px;
+      overflow: hidden;
+      background: var(--deep);
+    }
+
+    .hero-video-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: 0;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(15, 12, 8, 0.68) 40%, rgba(44, 36, 27, 0.64) 100%);
+      z-index: 1;
+    }
+
+    .hero-text,
+    .hero-image {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-text {
+      max-width: 560px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(184, 149, 90, 0.35);
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(33px, 4.4vw, 56px);
+      font-weight: 300;
+      line-height: 1.12;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+
+    .hero-sub {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 23px;
+      font-weight: 500;
+      font-style: italic;
+      color: #EDE3D0;
+      margin-bottom: 32px;
+      line-height: 1.5;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .session-meta {
+      display: flex;
+      gap: 0;
+      margin-bottom: 40px;
+      background: rgba(10, 8, 6, 0.55);
+      border: 1px solid rgba(212, 175, 120, 0.35);
+      backdrop-filter: blur(2px);
+      width: fit-content;
+    }
+
+    .session-meta .meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 16px 26px;
+    }
+
+    .meta-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+    }
+
+    .meta-value {
+      font-family: 'Cinzel', serif;
+      font-size: 24px;
+      color: var(--white);
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .divider-line {
+      width: 1px;
+      background: rgba(184, 149, 90, 0.35);
+    }
+
+    .btn-primary {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--deep);
+      background: var(--gold);
+      padding: 16px 40px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-1px);
+    }
+
+    .trust-line {
+      margin-top: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #E8DDC8;
+      letter-spacing: 0.05em;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    /* ─── HERO IMAGE SIDE ─── */
+    .hero-image {
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-image img {
+      width: 100%;
+      max-width: 560px;
+      border-radius: 0;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(184, 149, 90, 0.2);
+    }
+
+    /* ─── SECTION BASE ─── */
+    section {
+      padding: 100px 80px;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 64px;
+    }
+
+    .section-header .eyebrow {
+      display: block;
+    }
+
+    .section-header h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(30px, 3.6vw, 48px);
+      font-weight: 300;
+      color: var(--white);
+      line-height: 1.15;
+    }
+
+    .section-header p {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    /* ─── INTRO VIDEO ─── */
+    .intro-video {
+      background: var(--dark);
+    }
+
+    .video-frame {
+      max-width: 880px;
+      margin: 0 auto;
+      position: relative;
+      border: 1px solid rgba(184, 149, 90, 0.28);
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.55);
+      background: #000;
+    }
+
+    .video-frame::before {
+      content: '';
+      position: absolute;
+      top: -16px;
+      left: -16px;
+      right: -16px;
+      bottom: -16px;
+      border: 1px solid rgba(184, 149, 90, 0.15);
+      pointer-events: none;
+    }
+
+    .video-frame video {
+      width: 100%;
+      display: block;
+    }
+
+    /* ─── OUTCOMES ─── */
+    .experience {
+      background: var(--deep);
+    }
+
+    .experience-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: rgba(184, 149, 90, 0.1);
+      border: 1px solid rgba(184, 149, 90, 0.1);
+    }
+
+    .exp-card {
+      background: var(--deep);
+      padding: 48px 40px;
+      transition: background 0.2s;
+    }
+
+    .exp-card:hover {
+      background: var(--mid);
+    }
+
+    .exp-icon {
+      width: 36px;
+      height: 36px;
+      border: 1px solid rgba(184, 149, 90, 0.4);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    .exp-icon svg {
+      width: 16px;
+      height: 16px;
+      stroke: var(--gold);
+      fill: none;
+      stroke-width: 1.5;
+    }
+
+    .exp-card h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--white);
+      line-height: 1.3;
+    }
+
+    /* ─── SYMPTOMS / IS THIS FOR YOU ─── */
+    .symptoms {
+      background: var(--dark);
+    }
+
+    .symptom-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: rgba(184, 149, 90, 0.1);
+      border: 1px solid rgba(184, 149, 90, 0.1);
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    /* 19 items never fill the last row evenly — let the final one span it */
+    .symptom-grid .symptom:last-child {
+      grid-column: 1 / -1;
+    }
+
+    .symptom {
+      background: var(--dark);
+      padding: 22px 26px;
+      font-size: 14px;
+      color: var(--text);
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      line-height: 1.6;
+      transition: background 0.2s;
+    }
+
+    .symptom:hover {
+      background: var(--mid);
+    }
+
+    .symptom::before {
+      content: '◆';
+      color: var(--gold);
+      font-size: 10px;
+      line-height: 1.9;
+      flex-shrink: 0;
+    }
+
+    .symptom-close {
+      text-align: center;
+      margin-top: 44px;
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 26px;
+      color: var(--gold-light);
+    }
+
+    /* ─── THE 5 STEPS ─── */
+    .how {
+      background: var(--deep);
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0;
+      position: relative;
+    }
+
+    .steps::before {
+      content: '';
+      position: absolute;
+      top: 28px;
+      left: calc(10% + 20px);
+      right: calc(10% + 20px);
+      height: 1px;
+      background: linear-gradient(to right, transparent, rgba(184, 149, 90, 0.4), transparent);
+    }
+
+    .step {
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    .step-num {
+      width: 56px;
+      height: 56px;
+      border: 1px solid rgba(184, 149, 90, 0.4);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+      background: var(--deep);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 300;
+      color: var(--gold);
+      position: relative;
+      z-index: 1;
+    }
+
+    .step h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--white);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+
+    .step p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* ─── GUIDE / ABOUT ─── */
+    .guide {
+      background: var(--mid);
+    }
+
+    .guide-inner {
+      display: grid;
+      grid-template-columns: 420px 1fr;
+      gap: 80px;
+      align-items: center;
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    .guide-image {
+      position: relative;
+    }
+
+    .guide-image img {
+      width: 100%;
+      border: 1px solid rgba(184, 149, 90, 0.2);
+      box-shadow: 0 32px 60px rgba(0, 0, 0, 0.5);
+      display: block;
+    }
+
+    .guide-image::before {
+      content: '';
+      position: absolute;
+      top: -16px;
+      left: -16px;
+      right: 16px;
+      bottom: 16px;
+      border: 1px solid rgba(184, 149, 90, 0.15);
+      pointer-events: none;
+    }
+
+    .guide-text h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(28px, 3.5vw, 46px);
+      font-weight: 300;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 8px;
+    }
+
+    .guide-title {
+      font-size: 13px;
+      color: var(--gold);
+      letter-spacing: 0.12em;
+      font-weight: 500;
+      margin-bottom: 28px;
+    }
+
+    .guide-text p {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.85;
+      margin-bottom: 16px;
+      font-weight: 300;
+    }
+
+    .guide-text p strong {
+      color: var(--text);
+      font-weight: 400;
+    }
+
+    .guide-close {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 19px;
+      color: var(--gold-light);
+      line-height: 1.6;
+    }
+
+    /* ─── GATHERINGS ─── */
+    .gatherings {
+      background: var(--deep);
+    }
+
+    .gather-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 72px;
+      align-items: center;
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    .gather-image {
+      position: relative;
+    }
+
+    .gather-image img {
+      width: 100%;
+      display: block;
+      border: 1px solid rgba(184, 149, 90, 0.2);
+      box-shadow: 0 32px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .gather-image::before {
+      content: '';
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      right: -16px;
+      bottom: -16px;
+      border: 1px solid rgba(184, 149, 90, 0.15);
+      pointer-events: none;
+    }
+
+    .gather-text h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(28px, 3.5vw, 46px);
+      font-weight: 300;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 24px;
+    }
+
+    .gather-text p {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.85;
+      margin-bottom: 16px;
+      font-weight: 300;
+    }
+
+    .gather-text .accent {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 20px;
+      color: var(--gold-light);
+      margin-top: 24px;
+    }
+
+    /* ─── VIDEO TESTIMONIALS ─── */
+    .testimonials {
+      background: var(--dark);
+    }
+
+    .testi-scroll {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 6px 6px 22px;
+      max-width: 1200px;
+      margin: 0 auto;
+      scroll-snap-type: x proximity;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(212, 175, 120, 0.5) transparent;
+    }
+
+    .testi-scroll::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    .testi-scroll::-webkit-scrollbar-thumb {
+      background: rgba(212, 175, 120, 0.4);
+      border-radius: 3px;
+    }
+
+    .testi-card {
+      position: relative;
+      flex: 0 0 auto;
+      width: 190px;
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      cursor: pointer;
+      background: var(--mid);
+      border: 1px solid rgba(184, 149, 90, 0.15);
+      scroll-snap-align: start;
+    }
+
+    .testi-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: brightness(0.75);
+      transition: transform 0.4s ease, filter 0.4s ease;
+    }
+
+    .testi-card:hover img {
+      transform: scale(1.06);
+      filter: brightness(0.55);
+    }
+
+    .testi-card .testi-play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: rgba(15, 12, 8, 0.55);
+      border: 1px solid rgba(212, 175, 120, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .testi-card:hover .testi-play {
+      background: var(--gold);
+      border-color: var(--gold);
+    }
+
+    .testi-card .testi-play svg {
+      width: 16px;
+      height: 16px;
+      fill: var(--gold-pale);
+      margin-left: 2px;
+    }
+
+    .testi-card:hover .testi-play svg {
+      fill: var(--deep);
+    }
+
+    .testi-card .testi-name {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 18px 12px 12px;
+      background: linear-gradient(to top, rgba(15, 12, 8, 0.95), transparent);
+      color: var(--gold-pale);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 15px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .testi-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(6, 5, 3, 0.92);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      padding: 24px;
+    }
+
+    .testi-modal.active {
+      display: flex;
+    }
+
+    .testi-modal-inner {
+      position: relative;
+      width: 100%;
+      max-width: 405px;
+      aspect-ratio: 9 / 16;
+      max-height: 88vh;
+      background: #000;
+      box-shadow: 0 32px 80px rgba(0, 0, 0, 0.6);
+    }
+
+    .testi-modal-inner video {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+      object-fit: contain;
+      background: #000;
+    }
+
+    .testi-close {
+      position: absolute;
+      top: -44px;
+      right: 0;
+      width: 34px;
+      height: 34px;
+      border: 1px solid rgba(212, 175, 120, 0.5);
+      border-radius: 50%;
+      background: transparent;
+      color: var(--gold-pale);
+      font-size: 18px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .testi-close:hover {
+      background: var(--gold);
+      color: var(--deep);
+      border-color: var(--gold);
+    }
+
+    @media (max-width: 900px) {
+      .testi-scroll {
+        gap: 14px;
+      }
+      .testi-card {
+        width: 150px;
+      }
+    }
+
+    /* ─── FORM / CTA SECTION ─── */
+    .cta-section {
+      background: var(--mid);
+      text-align: center;
+      padding: 100px 80px;
+    }
+
+    .cta-section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(32px, 4vw, 52px);
+      font-weight: 300;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
+    .cta-section .sub {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      color: var(--muted);
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .form-panel {
+      max-width: 620px;
+      margin: 0 auto;
+      background: var(--gold-pale);
+      border: 1px solid rgba(184, 149, 90, 0.5);
+      box-shadow: 0 32px 70px rgba(0, 0, 0, 0.45);
+      padding: 8px;
+      position: relative;
+    }
+
+    .form-panel::before {
+      content: '';
+      position: absolute;
+      top: -14px;
+      left: -14px;
+      right: -14px;
+      bottom: -14px;
+      border: 1px solid rgba(184, 149, 90, 0.2);
+      pointer-events: none;
+    }
+
+    .form-panel iframe {
+      width: 100%;
+      height: 720px;
+      border: 0;
+      display: block;
+      background: var(--gold-pale);
+    }
+
+    .cta-legal {
+      margin-top: 32px;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--deep);
+      border-top: 1px solid rgba(184, 149, 90, 0.1);
+      padding: 48px 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    footer img {
+      height: 36px;
+      opacity: 0.7;
+    }
+
+    footer p {
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .footer-right {
+      font-size: 12px;
+      color: var(--muted);
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    /* ─── URGENCY BANNER ─── */
+    .urgency {
+      background: rgba(184, 149, 90, 0.08);
+      border-top: 1px solid rgba(184, 149, 90, 0.2);
+      border-bottom: 1px solid rgba(184, 149, 90, 0.2);
+      text-align: center;
+      padding: 14px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 1100px) {
+      .steps {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 56px;
+      }
+
+      .steps::before {
+        display: none;
+      }
+
+      .guide-inner,
+      .gather-inner {
+        grid-template-columns: 1fr;
+        gap: 56px;
+      }
+
+      .guide-image {
+        max-width: 420px;
+      }
+
+      .gather-image::before {
+        display: none;
+      }
+    }
+
+    @media (max-width: 900px) {
+      nav {
+        padding: 16px 20px;
+      }
+
+      nav .logo img {
+        height: 36px;
+      }
+
+      nav .cta-nav {
+        font-size: 11px;
+        padding: 9px 16px;
+        white-space: nowrap;
+      }
+
+      section {
+        padding: 72px 24px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 100px 24px 64px;
+        min-height: auto;
+      }
+
+      .hero-image {
+        display: none;
+      }
+
+      .steps {
+        grid-template-columns: 1fr 1fr;
+        gap: 48px;
+      }
+
+      .guide-inner,
+      .gather-inner {
+        grid-template-columns: 1fr;
+        gap: 48px;
+      }
+
+      .guide-image {
+        max-width: 360px;
+      }
+
+      .experience-grid,
+      .symptom-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .gather-image::before {
+        display: none;
+      }
+
+      .cta-section {
+        padding: 72px 24px;
+      }
+
+      footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 24px;
+      }
+
+      .footer-right {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .steps {
+        grid-template-columns: 1fr;
+      }
+
+      .session-meta {
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+      }
+
+      .session-meta .meta-item {
+        padding: 14px 20px;
+      }
+
+      .divider-line {
+        display: none;
+      }
+
+      .form-panel iframe {
+        height: 780px;
+      }
+
+      .experience-grid,
+      .symptom-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="logo">
+      <img src="https://storage.files-vault.com/landing_pages/73158/6f8bfca8e9d8dd9318e968da3de5cb45-6f8bfca8e9d8dd9318e968da3de5cb45-77dfdfb681661a608e5910f2161cea78-336cae6687fbb9c58acd3c1c9e5a2b62-Shiva-Science-logo-500.webp" alt="Shiva Science">
+    </a>
+    <a href="#register" class="cta-nav">Register Now</a>
+  </nav>
+
+  <!-- URGENCY BANNER -->
+  <div class="urgency">⏳ &nbsp; Limited Seats — Pune · Panchkula · Ahmedabad</div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero-video-bg" src="https://storage.files-vault.com/landing_pages/84720/bd43deb182e218429985edaaffb71309-4379459dcdad788aafca4ba295117ce7-background-bhayyaji-1.webp" alt="">
+    <div class="hero-text">
+      <span class="eyebrow">Offline Healing Session · 5 Days</span>
+      <h1>Activate Your Stress, Anxiety &amp;<br>Depression <em>Release System</em></h1>
+      <p class="hero-sub">Using a 5-step process, in the next 5 days</p>
+      <div class="session-meta">
+        <div class="meta-item">
+          <span class="meta-label">Duration</span>
+          <span class="meta-value">5 Days</span>
+        </div>
+        <div class="divider-line"></div>
+        <div class="meta-item">
+          <span class="meta-label">Format</span>
+          <span class="meta-value">Offline</span>
+        </div>
+        <div class="divider-line"></div>
+        <div class="meta-item">
+          <span class="meta-label">Next Batch</span>
+          <span class="meta-value">1 Aug 2026</span>
+        </div>
+      </div>
+      <a href="#register" class="btn-primary">Start Your Healing Journey</a>
+      <p class="trust-line">Guided by Param Pujya Bhaiyyaji · Supported by Medical Professionals</p>
+    </div>
+    <div class="hero-image">
+      <img src="https://storage.files-vault.com/landing_pages/84720/c7b325cc50d92c891f3f1c82ae8dec2d-c7b325cc50d92c891f3f1c82ae8dec2d-Add-a-heading-21.webp" alt="Stress Anxiety Depression Healing with Param Pujya Bhaiyyaji">
+    </div>
+  </section>
+
+  <!-- INTRO VIDEO -->
+  <section class="intro-video">
+    <div class="section-header">
+      <span class="eyebrow">Watch First</span>
+      <h2>Activate Your Release System<br>In the Next 5 Days</h2>
+      <p>Understand the 5-step process before you begin.</p>
+    </div>
+    <div class="video-frame">
+      <video controls playsinline preload="metadata"
+        poster="https://storage.files-vault.com/landing_pages/84720/a002741557fb2f9361bc942fb10ee32a-a002741557fb2f9361bc942fb10ee32a-Screenshot-2026-01-08-140800.webp">
+        <source src="https://storage.files-vault.com/uploads/1767857847-I7GLRJOGgd.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- OUTCOMES -->
+  <section class="experience">
+    <div class="section-header">
+      <span class="eyebrow">After This Healing Session</span>
+      <h2>You Will…</h2>
+    </div>
+    <div class="experience-grid">
+      <div class="exp-card">
+        <div class="exp-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 21s-7-4.35-7-9.5A3.5 3.5 0 0 1 12 8a3.5 3.5 0 0 1 7 3.5C19 16.65 12 21 12 21z"></path>
+          </svg>
+        </div>
+        <h3>Release Painful Past Memories</h3>
+      </div>
+      <div class="exp-card">
+        <div class="exp-icon">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+          </svg>
+        </div>
+        <h3>Release Deep-Seated Emotional Pressure</h3>
+      </div>
+      <div class="exp-card">
+        <div class="exp-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 12h4l3 8 4-16 3 8h4"></path>
+          </svg>
+        </div>
+        <h3>Activate the Body's Healing Response</h3>
+      </div>
+      <div class="exp-card">
+        <div class="exp-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"></path>
+          </svg>
+        </div>
+        <h3>Experience Better Sleep and Natural Relaxation</h3>
+      </div>
+      <div class="exp-card">
+        <div class="exp-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M9 12l2 2 4-4"></path>
+            <path d="M21 12c0-4.97-4.03-9-9-9S3 7.03 3 12s4.03 9 9 9 9-4.03 9-9z"></path>
+          </svg>
+        </div>
+        <h3>Become Fully Prepared for Organ-Level Healing</h3>
+      </div>
+      <div class="exp-card">
+        <div class="exp-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+          </svg>
+        </div>
+        <h3>Be Guided Throughout by Param Pujya Bhaiyyaji</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- IS THIS FOR YOU -->
+  <section class="symptoms">
+    <div class="section-header">
+      <span class="eyebrow">Who This Is For</span>
+      <h2>This Offline Healing Session<br>Is For You…</h2>
+      <p>If you are experiencing any of the following:</p>
+    </div>
+    <div class="symptom-grid">
+      <div class="symptom">Bad or painful memories</div>
+      <div class="symptom">Unnecessary anger</div>
+      <div class="symptom">Overthinking</div>
+      <div class="symptom">Stress &amp; tension</div>
+      <div class="symptom">Anxiety</div>
+      <div class="symptom">Disturbed sleep / insomnia</div>
+      <div class="symptom">Low energy &amp; motivation</div>
+      <div class="symptom">Emotional imbalance</div>
+      <div class="symptom">Lack of focus</div>
+      <div class="symptom">Feeling empty or lost</div>
+      <div class="symptom">Unexplained fear &amp; restlessness</div>
+      <div class="symptom">Hormonal disturbances</div>
+      <div class="symptom">Female health issues</div>
+      <div class="symptom">Digestive problems</div>
+      <div class="symptom">Constipation</div>
+      <div class="symptom">Liver or kidney imbalance</div>
+      <div class="symptom">Skin conditions like psoriasis</div>
+      <div class="symptom">OCD</div>
+      <div class="symptom">Parkinsonism-related imbalance</div>
+    </div>
+    <p class="symptom-close">…then this is for you.</p>
+  </section>
+
+  <!-- THE 5 STEPS -->
+  <section class="how">
+    <div class="section-header">
+      <span class="eyebrow">The Process</span>
+      <h2>The 5 Steps of Your Stress, Anxiety &amp;<br>Depression Healing Journey</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Heal Suppressed Past Painful Fear of Past Experiences</h3>
+        <p>Gently releases buried emotional pain and past fears, allowing deep inner healing and emotional freedom.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Remove Constant Overthinking</h3>
+        <p>Calms the restless mind, reduces mental noise, and brings clarity, focus, and inner silence.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Remove Fear of Future Failure</h3>
+        <p>Dissolves anxiety about the future, building confidence, trust, and emotional stability.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Improve Sleep Routine and Mood Swings</h3>
+        <p>Helps regulate sleep patterns and emotional fluctuations, leading to restful sleep and mental calmness.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <h3>Emotion Released Like Anger, Grief etc.</h3>
+        <p>Safely releases trapped emotions, restoring emotional lightness, peace, and balance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUIDE -->
+  <section class="guide">
+    <div class="guide-inner">
+      <div class="guide-image">
+        <!-- Warm-toned portrait from the Divine Session page; the healing page's own
+             portrait sits on a bright purple background that fights this palette. -->
+        <img src="https://storage.files-vault.com/landing_pages/95084/d48ff18cfffec5acfb50331ddd0a79db-d48ff18cfffec5acfb50331ddd0a79db-379c8ddc7041d9adb69309d78aa82d33-379c8ddc7041d9adb69309d78aa82d33-Screenshot-2026-01-05-115826.webp" alt="Param Pujya Bhaiyyaji">
+      </div>
+      <div class="guide-text">
+        <span class="eyebrow">Meet Your Guide</span>
+        <h2>Param Pujya<br>Bhaiyyaji</h2>
+        <p class="guide-title">India's Leading Spiritual Healer &amp; Master of Shiva Science</p>
+        <p>Param Pujya Bhaiyyaji is one of India's most revered and powerful spiritual healers, a realized yogi who carries the <strong>living wisdom of the Ancient Science of Shiva</strong>. Initiated into deep sadhana at a very young age by his revered Guru Gurubhagwan Shivdutta Maharaj, he embraced a life of renunciation and intense tapasya, dedicating himself to inner transformation and service to humanity.</p>
+        <p>With decades of disciplined yogic practice, mantra sadhana, and solitary spiritual immersion, he has guided thousands on the path of <strong>physical healing, emotional liberation, karmic cleansing, and spiritual awakening</strong>. His work bridges timeless yogic wisdom with practical, experience-based spiritual processes, making higher consciousness accessible to modern seekers.</p>
+        <p>Through his transformational programs and divine sessions, he offers deep healing practices, chakra and tattva-based meditations, mantra science, inner alchemy, stress and trauma release, karmic purification, and consciousness expansion techniques. His guidance helps individuals overcome fear, anxiety, emotional blockages, past-life impressions, and chronic life challenges — leading them toward balance, clarity, and inner strength.</p>
+        <p>His mission is to awaken the dormant potential within every individual and help humanity evolve into a higher state of awareness, health, and harmony. His sessions are not just teachings — they are experiences that transform lives from within.</p>
+        <p class="guide-close">Join this sacred journey of healing, awakening, and self-realization — and step into your highest potential through the Science of Shiva.</p>
+        <br>
+        <a href="#register" class="btn-primary">Start Your Healing Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GATHERINGS -->
+  <section class="gatherings">
+    <div class="gather-inner">
+      <div class="gather-text">
+        <span class="eyebrow">A Shared Experience</span>
+        <h2>Healing Sessions<br>That Transform Lives</h2>
+        <p>Guided by Param Pujya Bhaiyyaji, these healing sessions bring together seekers from all walks of life to experience deep emotional release, mental calmness, and spiritual alignment.</p>
+        <p>Each gathering is a powerful collective experience — where energy, awareness, and inner transformation unfold naturally.</p>
+        <p class="accent">This is not just guidance — it is a lived, shared healing experience.</p>
+      </div>
+      <div class="gather-image">
+        <img src="https://storage.files-vault.com/landing_pages/84720/f1f2d9235f6c03597a7b3a7cac581e58-f1f2d9235f6c03597a7b3a7cac581e58-WhatsApp-Image-2026-01-08-at-12.48.33-PM.webp" alt="Healing session gathering with Param Pujya Bhaiyyaji">
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="section-header">
+      <span class="eyebrow">Real Healing Experiences</span>
+      <h2>Hear From Those Who Attended</h2>
+      <p>Watch real people share their experiences after attending the healing session.</p>
+    </div>
+    <div class="testi-scroll">
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869933-WpyZQfA8ww.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/c765e8c79dfae64a6f68d283affa5651-c765e8c79dfae64a6f68d283affa5651-1767100263-kcbRjoBj6Y.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">0:52</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869816-3hehoVMvU9.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/6b9257c37c906204ad1b6ab28bbdd57b-6b9257c37c906204ad1b6ab28bbdd57b-1767100263-EQrIHXM24o.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">1:13</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869858-EES4iKGNWi.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/d7d1ada2e6ef5d04e70c159406b3f20f-d7d1ada2e6ef5d04e70c159406b3f20f-1767100263-AMMLcwGHAV.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">1:08</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869766-lTJa6xFVdp.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/b2574f95397a7385e9f7535f8e1e8f6c-6c9495b33bf193f1d9e4cf4c8a86aec9-1767100264-RspkgIwoks.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">1:38</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869986-E1gVAh3bPy.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/a3ba2f256b884179262aac80918d57a1-a3ba2f256b884179262aac80918d57a1-1767100263-v2zC86nD8Q.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">1:03</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765870084-DaToA2a6qK.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/7a48078e0d0d0b2f24eef35131f5acfa-7a48078e0d0d0b2f24eef35131f5acfa-1767100263-IhLc7P0fDi.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">0:31</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765870063-WHyZtuJJNs.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/5476d09f70754508979b88f6f72d4778-5476d09f70754508979b88f6f72d4778-1767100263-Vy9Ox1v3Uw.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">0:24</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869398-sqIC0GZ8nz.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/fa348a8158b477e9bab6e9fa9ab2d4c6-fa348a8158b477e9bab6e9fa9ab2d4c6-1767100264-Yy5qDwKnf9.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">0:24</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869532-6FSVp14aMq.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/4baf778f20cea1b06a7056b286b5ff90-4baf778f20cea1b06a7056b286b5ff90-1767100263-AvrI4aRI31.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">0:38</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765870032-SmywIztGV4.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/d9093ecc6ff96087dd9344b5a869980a-d9093ecc6ff96087dd9344b5a869980a-1767100264-OsfcQU4uto.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">0:26</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869484-5j3zHlatyC.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/51c35b8643552f701337ae6ff01e35ee-51c35b8643552f701337ae6ff01e35ee-1767100263-YMwivahydA.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">1:33</span>
+      </div>
+      <div class="testi-card" onclick="openTesti('https://storage.files-vault.com/uploads/1765869963-5h9rCxOV8F.mp4')">
+        <img src="https://storage.files-vault.com/landing_pages/82510/1f4d48197e307c776318c61c989e8ba4-1f4d48197e307c776318c61c989e8ba4-1767100263-grCxFR2hi9.webp" alt="Healing session testimonial" loading="lazy">
+        <span class="testi-play"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8V4z"></path></svg></span>
+        <span class="testi-name">0:26</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Video Modal -->
+  <div class="testi-modal" id="testiModal" onclick="if(event.target===this) closeTesti()">
+    <div class="testi-modal-inner">
+      <button class="testi-close" onclick="closeTesti()">×</button>
+      <video id="testiVideo" controls playsinline preload="none"></video>
+    </div>
+  </div>
+
+  <script>
+    function openTesti(url) {
+      var v = document.getElementById('testiVideo');
+      v.src = url;
+      document.getElementById('testiModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+      v.play().catch(function () {});
+    }
+
+    function closeTesti() {
+      var v = document.getElementById('testiVideo');
+      v.pause();
+      v.removeAttribute('src');
+      v.load();
+      document.getElementById('testiModal').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeTesti();
+    });
+  </script>
+
+  <!-- CTA / REGISTRATION -->
+  <section class="cta-section" id="register">
+    <span class="eyebrow">Register Now</span>
+    <h2>Start Your Healing Journey Today</h2>
+    <p class="sub">Take the first step towards complete wellness with our holistic healing approach.</p>
+    <div class="form-panel">
+      <iframe src="https://healing.shivascience.com/widget/form/695b5cb335671" title="Healing session enquiry form" loading="lazy"></iframe>
+    </div>
+    <p class="cta-legal">The healing programs and guidance shared here are designed to support holistic well-being through spiritual practices,<br>guided by Param Pujya Bhaiyyaji and supported by medical professionals.<br>These sessions do not replace medical treatment. Individual experiences may vary.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="https://storage.files-vault.com/landing_pages/73158/6f8bfca8e9d8dd9318e968da3de5cb45-6f8bfca8e9d8dd9318e968da3de5cb45-77dfdfb681661a608e5910f2161cea78-336cae6687fbb9c58acd3c1c9e5a2b62-Shiva-Science-logo-500.webp" alt="Shiva Science">
+    <p>© 2026 Shiva Science. All Rights Reserved.</p>
+    <p class="footer-right">Offline Healing Sessions<br>Pune · Panchkula · Ahmedabad</p>
+  </footer>
+
+</body>
+</html>
